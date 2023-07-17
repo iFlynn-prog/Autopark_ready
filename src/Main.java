@@ -25,7 +25,7 @@ public class Main {
         truck.AddGoods("Хрень", 20);
         truck.AddGoods("Мука", 100);
 
-      //  truck.DelGoods("Мука", 100);
+        truck.DelGoods("Мука", 100);
       //  truck.PrintCurrentGoods();
 
         truck.print();
