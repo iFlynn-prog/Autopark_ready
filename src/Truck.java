@@ -29,8 +29,8 @@ public class Truck extends Car {
         System.out.println(String.format("Грузоподъемность: %s", maxVelocity));
     }
 
-    public void setNameDriver(String nameDriver) {
-        this.firstnameDriver = nameDriver;
+    public void setFirstNameDriver(String firstnameDriver) {
+        this.firstnameDriver = firstnameDriver;
     }
 
     public void setLastNameDriver(String lastNameDriver) {
@@ -41,7 +41,7 @@ public class Truck extends Car {
         if (firstnameDriver.isEmpty() | lastNameDriver.isEmpty()) {
             System.out.println("Имя, фамилия водителя пустое");
         } else {
-            setNameDriver(firstnameDriver);
+            setFirstNameDriver(firstnameDriver);
             setLastNameDriver(lastNameDriver);
             System.out.println(String.format("Фамилия: %s", lastNameDriver));
             System.out.println(String.format("Имя: %s", firstnameDriver));
