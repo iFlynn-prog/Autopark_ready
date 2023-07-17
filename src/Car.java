@@ -8,7 +8,7 @@ public class Car {
         this.power = power;
         this.yearOfCreate = yearOfCreate;
     }
-    public void print() {
+    public void Print() {
         System.out.println("Марка: " + brand +
                 "\nМощность: " + power + "\n" + "Год производства: " + yearOfCreate);
         System.out.println();

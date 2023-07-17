@@ -15,7 +15,7 @@ public class Autopark {
 
     public void PrintAutopark() {
         for (Car item : arrayCarList) {
-            item.print();
+            item.Print();
         }
     }
 }

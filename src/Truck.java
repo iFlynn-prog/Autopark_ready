@@ -63,9 +63,9 @@ public class Truck extends Car {
     }
 
     @Override
-    public void print() {
+    public void Print() {
         System.out.println("Итого по truck ++++++++++++++++++++++++");
-        super.print();
+        super.Print();
         System.out.println(String.format("Грузоподъемность: %s", maxVelocity));
         System.out.println("===============================================");
         System.out.println(String.format("Фамилия: %s", lastNameDriver));
